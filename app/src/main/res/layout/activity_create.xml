@@ -103,6 +103,7 @@
         android:inputType="date"
         android:text="@string/due_date_input_field_form"
         android:textColor="@color/primaryVariantColor"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/dueDateText"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="TextViewEdits" />
@@ -114,6 +115,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/plate_input_field_form"
         android:textColor="@color/primaryVariantColor"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/plateText"
         app:layout_constraintTop_toBottomOf="@+id/dueDateText" />
 
@@ -124,7 +126,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="@string/create_alert"
-        android:textColor="@color/secondaryVariantColor"
+        android:textColor="@color/secondaryColor"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,22 +171,22 @@
 
         <Button
             android:id="@+id/cancelButton"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:backgroundTint="@color/whiteColor"
             android:text="@string/cancel_button_form"
             android:textColor="@color/primaryColor"
             app:cornerRadius="5dp"
             app:strokeColor="@color/primaryColor"
-            app:strokeWidth="2dp"
-            android:layout_marginEnd="8dp"/>
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/acceptButton"
-            android:layout_marginStart="8dp"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
             android:backgroundTint="@color/primaryColor"
             android:text="@string/accept_button_form"
@@ -198,6 +200,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/category_input_field_form"
         android:textColor="@color/primaryVariantColor"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/categorySpinner"
         app:layout_constraintTop_toBottomOf="@+id/plateText" />
 
@@ -208,6 +211,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/time_input_field_form"
         android:textColor="@color/primaryVariantColor"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/timeSpinner"
         app:layout_constraintTop_toBottomOf="@+id/categorySpinner" />
 
@@ -218,6 +222,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/photo_input_field_form"
         android:textColor="@color/primaryVariantColor"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/plateText2"
         app:layout_constraintTop_toBottomOf="@+id/timeSpinner" />
 
@@ -237,6 +242,7 @@
         android:layout_marginStart="16dp"
         android:text="@string/postpone_switch_form"
         android:textColor="@color/primaryVariantColor"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/switch1" />
 

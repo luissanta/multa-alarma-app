@@ -11,7 +11,7 @@
     <string name="photo_input_field_place_holder_form">foto-12334.png</string>
     <string name="postpone_switch_form">Permitir posponer</string>
     <string name="cancel_button_form">CANCELAR</string>
-    <string name="accept_button_form">ACEPTAR</string>
+    <string name="accept_button_form">CREAR</string>
 
     <string name="add_button_home">Agregar alarma</string>
     <string name="plate_card">YOD90F</string>
