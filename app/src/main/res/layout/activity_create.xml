@@ -59,7 +59,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:drawableRight="@drawable/ic_calendar" />
 
     <EditText
         android:id="@+id/plateText"
@@ -93,7 +94,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:drawableRight="@drawable/ic_camera"/>
 
     <TextView
         android:id="@+id/textView"
