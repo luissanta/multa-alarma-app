@@ -3,16 +3,16 @@ package com.example.multaalertaapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val buttonNavigate = findViewById<FloatingActionButton>(R.id.addAlarmFab)
+        val button = findViewById<Button>(R.id.addButton)
 
-        buttonNavigate.setOnClickListener {
+        button.setOnClickListener {
             val intent = Intent(this, CreateActivity::class.java)
             startActivity(intent)
         }
