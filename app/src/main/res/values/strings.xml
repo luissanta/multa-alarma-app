@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MultaAlerta</string>
+
+    <string name="create_alert">Creación de alerta</string>
+    <string name="due_date_input_field_form">Fecha de vencimiento</string>
+    <string name="plate_input_field_form">Placa / Matricula</string>
+    <string name="plate_input_field_place_holder_form">YOD90F</string>
+    <string name="category_input_field_form">Categoria</string>
+    <string name="time_input_field_form">Tiempo de alerta</string>
+    <string name="photo_input_field_form">Foto</string>
+    <string name="photo_input_field_place_holder_form">foto-12334.png</string>
+    <string name="postpone_switch_form">Permitir posponer</string>
+    <string name="cancel_button_form">CANCELAR</string>
+    <string name="accept_button_form">ACEPTAR</string>
+
+    <string name="add_button_home">Agregar alarma</string>
+    <string name="plate_card">YOD90F</string>
+    <string name="category_card">SOAT</string>
+    <string name="date_card">13/09/2023</string>
+    <string name="time_card">15 días antes</string>
+    <string name="button_card">ELIMINAR</string>
+    <string name="image_card">Imagen de auto</string>
+</resources>
