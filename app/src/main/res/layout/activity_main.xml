@@ -33,13 +33,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:fontFamily="@font/baloo"
         android:text="@string/app_name"
         android:textColor="@color/primaryVariantColor"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintStart_toEndOf="@+id/clockIconImageText"
-        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+        app:layout_constraintStart_toEndOf="@+id/clockIconImageText" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -62,19 +62,22 @@
 
             <LinearLayout
                 android:layout_width="167dp"
-                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/baloo"
                     android:gravity="center"
                     android:shadowColor="@color/primaryVariantColor"
                     android:text="@string/plate_card"
                     android:textColor="@color/primaryVariantColor"
-                    android:textSize="26dp"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -93,7 +96,7 @@
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
+                    android:layout_height="49dp"
                     android:text="@string/category_card"
                     android:textAlignment="textEnd"
                     android:textColor="@color/secondaryVariantColor"
@@ -103,7 +106,7 @@
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="37dp"
                     android:shadowColor="@color/primaryVariantColor"
                     android:text="@string/date_card"
                     android:textAlignment="textEnd"
@@ -114,7 +117,7 @@
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="36dp"
                     android:shadowColor="@color/primaryVariantColor"
                     android:text="@string/time_card"
                     android:textAlignment="textEnd"
@@ -157,18 +160,21 @@
             <LinearLayout
                 android:layout_width="167dp"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView15"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:fontFamily="@font/baloo"
                     android:gravity="center"
                     android:shadowColor="@color/primaryVariantColor"
                     android:text="@string/plate_card"
                     android:textColor="@color/primaryVariantColor"
-                    android:textSize="26dp"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -187,7 +193,7 @@
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
+                    android:layout_height="48dp"
                     android:text="@string/category_card"
                     android:textAlignment="textEnd"
                     android:textColor="@color/secondaryVariantColor"
@@ -197,7 +203,7 @@
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="37dp"
                     android:shadowColor="@color/primaryVariantColor"
                     android:text="@string/date_card"
                     android:textAlignment="textEnd"
@@ -208,7 +214,7 @@
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="match_parent"
-                    android:layout_height="33dp"
+                    android:layout_height="39dp"
                     android:shadowColor="@color/primaryVariantColor"
                     android:text="@string/time_card"
                     android:textAlignment="textEnd"
