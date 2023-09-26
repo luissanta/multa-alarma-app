@@ -42,18 +42,23 @@
         app:layout_constraintStart_toEndOf="@+id/clockIconImageText" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
         android:id="@+id/card1"
-        app:cardCornerRadius="15dp"
-        app:cardBackgroundColor="@color/whiteColor"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/es" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,10 +67,10 @@
 
             <LinearLayout
                 android:layout_width="167dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart="10dp"
-                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
@@ -128,9 +133,9 @@
                     android:id="@+id/cancelButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="15dp"
+                    android:layout_marginEnd="0dp"
                     android:backgroundTint="@color/whiteColor"
                     android:text="@string/button_card"
                     android:textColor="@color/primaryColor"
@@ -148,9 +153,17 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card1">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/es" />
 
         <LinearLayout
             android:layout_width="match_parent"
