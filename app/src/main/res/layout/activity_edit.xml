@@ -89,14 +89,15 @@
         android:layout_marginEnd="16dp"
         android:autofillHints=""
         android:background="@drawable/border_input"
+        android:drawableRight="@drawable/ic_camera"
         android:ems="10"
         android:hint="@string/photo_input_field_place_holder_form"
         android:inputType="text"
+        android:text="@string/photo_input_field_place_holder_form"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        android:drawableRight="@drawable/ic_camera"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/textView"
@@ -189,7 +190,7 @@
 
         <Button
             android:id="@+id/editButton"
-            android:layout_width="183dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_weight="1"
