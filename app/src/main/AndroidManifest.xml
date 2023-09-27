@@ -13,7 +13,13 @@
         android:theme="@style/Theme.MultaAlertaApp"
         tools:targetApi="31">
         <activity
+            android:name=".ShowAlarm"
+            android:exported="false" />
+        <activity
             android:name=".CreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

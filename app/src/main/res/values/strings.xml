@@ -20,4 +20,11 @@
     <string name="time_card">15 días antes</string>
     <string name="button_card">ELIMINAR</string>
     <string name="image_card">Imagen de auto</string>
+    <string name="edit_accept_button_form">EDITAR</string>
+    <string name="edit_alert">Edición de alerta</string>
+    <string name="plate_QAP_input_field_place_holder_form">QAP</string>
+    <string name="alarma">ALARMA</string>
+    <string name="description_card">DESCRIPCIÓN</string>
+    <string name="name_Soat">SOAT</string>
+    <string name="textDesactivar">Desactivar</string>
 </resources>
