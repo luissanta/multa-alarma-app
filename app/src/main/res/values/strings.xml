@@ -27,4 +27,5 @@
     <string name="description_card">DESCRIPCIÓN</string>
     <string name="name_Soat">SOAT</string>
     <string name="textDesactivar">Desactivar</string>
+    <string name="show_alert">VER SIMULACIÓN ALERTA (MOMENTO EN EL QUE SE ACTIVA)</string>
 </resources>

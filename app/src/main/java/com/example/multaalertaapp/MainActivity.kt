@@ -4,8 +4,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -32,6 +34,15 @@ class MainActivity : AppCompatActivity() {
         linearLayout1.setOnClickListener {
             val intent = Intent(this, EditActivity::class.java)
             startActivity(intent)
+        }
+
+        val goToShowAlarmTextView = findViewById<TextView>(R.id.go_to_show_alarm)
+
+        goToShowAlarmTextView.setOnClickListener{
+
+                val intent = Intent(this, ShowAlarm::class.java)
+                startActivity(intent)
+
         }
     }
 }
