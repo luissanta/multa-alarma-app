@@ -23,10 +23,13 @@ cd multa-alarma-app
    
 4. Iniciar el proyecto
 
-![WhatsApp Image 2023-09-27 at 9 12 27 PM](https://github.com/luissanta/multa-alarma-app/assets/111300656/516619ac-19a1-45f7-826e-f98c17fd5333)
+![image](https://github.com/luissanta/multa-alarma-app/assets/111078997/87def772-e236-4279-bcc6-7bf5aebdf6f6)
 
-![WhatsApp Image 2023-09-27 at 9 12 27 PM (1)](https://github.com/luissanta/multa-alarma-app/assets/111300656/93374279-b405-4883-89fb-5b7aead38cc5)
+
+![image](https://github.com/luissanta/multa-alarma-app/assets/111078997/f2be5bb3-c1c8-438b-9b7e-ca768785d3e3)
+
 
 ![WhatsApp Image 2023-09-27 at 9 12 27 PM (2)](https://github.com/luissanta/multa-alarma-app/assets/111300656/8161dbaf-08d8-4821-9a01-148bc31aefb6)
 
-![WhatsApp Image 2023-09-27 at 9 12 28 PM](https://github.com/luissanta/multa-alarma-app/assets/111300656/dd337f9f-75ae-4aaf-8587-ba4b7c047665)
+![image](https://github.com/luissanta/multa-alarma-app/assets/111078997/801b897b-d342-43de-8cd5-6c8d2d98deef)
+
